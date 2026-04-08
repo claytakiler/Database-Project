@@ -1,6 +1,6 @@
 -- stella's queries
 1. source 01_phoneNum_onAppeal.sql
-gets phone number, client title for all clients with a case whose status is "on appeal"
+gets phone number, client title for all corporate clients with a case whose status is "on appeal"
 
 2. source 02_hearing_elpasedTime.sql
 gets case title, elapsed time (difference in time between most recent hearing and oldest hearing) for all cases that have at least two hearings
