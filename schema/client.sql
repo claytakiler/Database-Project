@@ -1,5 +1,5 @@
 CREATE TABLE client(
-	client_ID CHAR(5),
+	client_ID INT AUTO_INCREMENT,
 	name VARCHAR(20),
 	type VARCHAR(10),
 	phone_number VARCHAR(10),

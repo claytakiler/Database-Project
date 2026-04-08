@@ -6,6 +6,7 @@ USE database_project;
 -- Schemas
 -- Example: SOURCE schema/test.sql;
 SOURCE schema/client.sql;
+SOURCE schema/case.sql;
 SOURCE schema/hearing.sql; -- hearing requires case
 
 -- queries
@@ -14,3 +15,7 @@ SOURCE schema/hearing.sql; -- hearing requires case
 -- Example: SOURCE data/seed_data.sql;
 SOURCE data/client_data.sql;
 SOURCE data/hearing_data.sql; -- hearing requires case
+
+SOURCE data/case_data.sql;
+
+-- queries
