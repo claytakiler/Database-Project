@@ -11,3 +11,4 @@ SOURCE schema/clients.sql;
 
 -- Data files
 -- Example: SOURCE data/seed_data.sql;
+SOURCE data/clientsdata.sql;
