@@ -9,4 +9,5 @@ from
     client join case
     on client.client_id = case.client_id
 
-where case.status = 'on appeal';
+where case.status = 'on appeal'
+and client.type = 'coorporate';
