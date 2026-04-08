@@ -1,9 +1,9 @@
 -- requires case table
 create table hearing (
 case_ID		char(5),
-judge			varchar(20),
+judge			varchar(25),
 date_time		timestamp,
-courthouse		varchar(20),
+courthouse		varchar(25),
 
 primary key(case_ID, date_time),
 foreign key (case_ID) references case(case_ID)
