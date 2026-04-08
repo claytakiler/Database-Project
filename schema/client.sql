@@ -1,4 +1,4 @@
-CREATE TABLE clients(
+CREATE TABLE client(
 	client_ID CHAR(5),
 	name VARCHAR(20),
 	type VARCHAR(10),

@@ -1,5 +1,5 @@
 INSERT INTO
-    clients (
+    client (
         client_ID,
         name,
         type,
