@@ -6,9 +6,12 @@ USE database_project;
 -- Schemas
 -- Example: SOURCE schema/test.sql;
 SOURCE schema/client.sql;
-
--- queries
+SOURCE schema/lawyer.sql;
 
 -- Data files
 -- Example: SOURCE data/seed_data.sql;
 SOURCE data/client_data.sql;
+SOURCE data/lawyer_data.sql;
+
+-- queries
+-- SOURCE queries/lawyer_queries.sql;
