@@ -5,6 +5,7 @@ USE database_project;
 
 -- Schemas
 -- Example: SOURCE schema/test.sql;
+SOURCE schema/clients.sql;
 
 -- queries
 
