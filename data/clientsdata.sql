@@ -38,7 +38,7 @@ VALUES (
     (
         '00006',
         'Lauren Hayes',
-        'corporatel',
+        'corporate',
         2251083096
     ),
     (
@@ -86,7 +86,7 @@ VALUES (
     (
         '00014',
         'Madison Brooks',
-        'corporatel',
+        'corporate',
         2253418961
     ),
     (
