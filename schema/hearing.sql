@@ -1,6 +1,6 @@
 -- requires case table
 create table hearing (
-case_ID		char(5),
+case_ID		INT,
 judge			varchar(25),
 date_time		timestamp,
 courthouse		varchar(25),
