@@ -1,8 +1,16 @@
-Insert into lawyer_specialization values (‘00001’, ‘corporate law’);
-Insert into lawyer_specialization values (‘00001’, ‘property law’);
-Insert into lawyer_specialization values (‘00002’, ‘criminal law’);
-Insert into lawyer_specialization values (‘00002’, ‘family law’);
-Insert into lawyer_specialization values (‘00003’, ‘corporate law’);
-Insert into lawyer_specialization values (‘00003’, ‘criminal law’);
-Insert into lawyer_specialization values (‘00003’, ‘property  law’);
-Insert into lawyer_specialization values (‘00004’, ‘family law’);
+INSERT INTO lawyer_specialization (lawyer_ID, specialization)
+VALUES ('00001', 'corporate law'),
+       ('00001', 'property law'),
+       ('00002', 'criminal law'),
+       ('00002', 'family law'),
+       ('00003', 'corporate law'),
+       ('00003', 'criminal law'),
+       ('00003', 'property law'),
+       ('00004', 'family law'),
+       ('00005', 'corporate law'),
+       ('00005', 'family law'),
+       ('00006', 'criminal law'),
+       ('00007', 'property law'),
+       ('00007', 'corporate law'),
+       ('00008', 'family law'),
+       ('00008', 'criminal law');
