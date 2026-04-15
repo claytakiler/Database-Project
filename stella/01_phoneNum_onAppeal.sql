@@ -1,4 +1,4 @@
-– get phone_#, title (from client) for all clients who have a case with case status = “on appeal”.
+-- get phone_#, title (from client) for all clients who have a case with case status = “on appeal”.
 
 select
     client.phone_#,
