@@ -1,4 +1,4 @@
-– get lawyer name, num_assignments (number of cases a given lawyer is working on) for all partners at the firm, even if a given partner is not currently assigned to any case.
+-- get lawyer name, num_assignments (number of cases a given lawyer is working on) for all partners at the firm, even if a given partner is not currently assigned to any case.
 
 select lawyer.name, (
     select count(*)
