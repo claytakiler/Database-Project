@@ -8,7 +8,7 @@ USE database_project;
 SOURCE schema/client.sql;
 SOURCE schema/case.sql;
 SOURCE schema/hearing.sql; -- hearing requires case
-
+SOURCE schema/specialization.sql;
 -- queries
 
 -- Data files
@@ -16,5 +16,5 @@ SOURCE schema/hearing.sql; -- hearing requires case
 SOURCE data/client_data.sql;
 SOURCE data/case_data.sql;
 SOURCE data/hearing_data.sql; -- hearing requires case
-
+SOURCE data/specialization_data.sql;
 -- queries
