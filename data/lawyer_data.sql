@@ -6,91 +6,91 @@ INSERT INTO
         salary
     )
 VALUES (
-        '00001',
+        1,
         'robert smith',
         'partner',
         185000.00
     ),
     (
-        '00002',
+        2,
         'angela morre',
         'partner',
         172000.00
     ),
     (
-        '00003',
+        3,
         'david williams',
         'associate',
         105000.00
     ),
     (
-        '00004',
+        4,
         'maria landry',
         'associate',
         98000.00
     ),
     (
-        '00005',
+        5,
         'rick jones',
         'partner',
         195000.00
     ),
     (
-        '00006',
+        6,
         'karen doucet',
         'associate',
         110000.00
     ),
     (
-        '00007',
+        7,
         'thomas robichaux',
         'partner',
         180000.00
     ),
     (
-        '00008',
+        8,
         'lisa breaux',
         'associate',
         102000.00
     ),
     (
-        '00009',
+        9,
         'steven castille',
         'associate',
         95000.00
     ),
     (
-        '00010',
+        10,
         'rachel dugas',
         'partner',
         200000.00
     ),
     (
-        '00011',
+        11,
         'brian martinez',
         'associate',
         108000.00
     ),
     (
-        '00012',
+        12,
         'natalie brown',
         'partner',
         190000.00
     ),
     (
-        '00013',
+        13,
         'eric sonnier',
         'associate',
         100000.00
     ),
     (
-        '00014',
+        14,
         'arthur morgan',
         'partner',
         175000.00
     ),
     (
-        '00015',
+        15,
         'john marston',
         'associate',
         112000.00

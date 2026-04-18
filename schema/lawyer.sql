@@ -1,5 +1,5 @@
 CREATE TABLE lawyer (
-    lawyer_ID CHAR(5),
+    lawyer_ID INT,
     name VARCHAR(20),
     title VARCHAR(10),
     salary DECIMAL(10,2),
