@@ -1,5 +1,5 @@
 create table lawyer_specialization(
-    lawyer_ID   char(5),
+    lawyer_ID   INT,
     specialization      varchar(20),
 
     primary key(lawyer_ID, specialization),
