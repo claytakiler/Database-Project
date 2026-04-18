@@ -1,0 +1,16 @@
+INSERT INTO lawyer_specialization (lawyer_ID, specialization)
+VALUES ('00001', 'corporate law'),
+       ('00001', 'property law'),
+       ('00002', 'criminal law'),
+       ('00002', 'family law'),
+       ('00003', 'corporate law'),
+       ('00003', 'criminal law'),
+       ('00003', 'property law'),
+       ('00004', 'family law'),
+       ('00005', 'corporate law'),
+       ('00005', 'family law'),
+       ('00006', 'criminal law'),
+       ('00007', 'property law'),
+       ('00007', 'corporate law'),
+       ('00008', 'family law'),
+       ('00008', 'criminal law');
