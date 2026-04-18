@@ -10,6 +10,7 @@ SOURCE schema/lawyer.sql;
 SOURCE schema/case.sql;
 SOURCE schema/hearing.sql; -- hearing requires case
 SOURCE schema/specialization.sql;
+SOURCE schema/lawyer_assignment.sql;
 
 -- Data files
 -- Example: SOURCE data/seed_data.sql;
@@ -18,3 +19,4 @@ SOURCE data/lawyer_data.sql;
 SOURCE data/case_data.sql;
 SOURCE data/hearing_data.sql; -- hearing requires case
 SOURCE data/specialization_data.sql;
+SOURCE data/lawyer_assignment_data.sql;
