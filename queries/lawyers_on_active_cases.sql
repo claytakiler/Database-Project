@@ -1,0 +1,12 @@
+-- Query 3: Lawyers assigned to cases that are currently open or in trial
+-- SELECT
+--    lawyer.name,
+--    lawyer.title,
+--    `case`.case_ID,
+--    `case`.title AS case_title,
+--    `case`.status
+--FROM lawyer
+--JOIN lawyer_assignment la ON lawyer.lawyer_ID = la.lawyer_ID
+--JOIN `case` ON la.case_ID = `case`.case_ID
+--WHERE `case`.status IN ('open', 'in trial')
+--ORDER BY lawyer.name, `case`.case_ID;
