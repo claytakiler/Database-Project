@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 Create table lawyer_assignment(
 lawyer_ID                   INT,
 case_ID                      INT,
+=======
+CREATE TABLE lawyer_assignment(
+lawyer_ID char(5),
+case_ID varchar(20),
+>>>>>>> 509e197 (assignment changes)
 
 Primary key(lawyer_ID, case_ID),
 Foreign key (lawyer_ID) references lawyer(lawyer_ID),
