@@ -14,4 +14,6 @@ SOURCE data/client_data.sql;
 SOURCE data/lawyer_data.sql;
 
 -- queries
--- SOURCE queries/lawyer_queries.sql;
+-- SOURCE queries/query1_avg_salary_by_title.sql;
+-- SOURCE queries/query2_partners_above_avg_salary.sql;
+-- SOURCE queries/query3_lawyers_on_active_cases.sql;
