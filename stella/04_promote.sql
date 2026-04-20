@@ -1,3 +1,5 @@
+-- promotes associates working on 3 or more cases to partner
+
 update lawyer
 set title = 'partner'
 where title = 'associate'
