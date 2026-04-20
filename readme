@@ -8,5 +8,5 @@ gets case title, elapsed time (difference in time between most recent hearing an
 3. source 03_partnerName_numAssignments.sql
 gets lawyer name, number of cases assigned to for all partners at the firm in descending order of num assignments
 
-4. source 04_raise.sql
-gives partners a 5% salary raise, associates a 3% salary raise if the partner/associate is currently assigned to at least 1/5 of total cases
+4. source 04_raise.sql (will be renamed to promote)
+promotes associates working on 3 or more cases to partner
