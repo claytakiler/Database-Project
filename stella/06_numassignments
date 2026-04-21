@@ -1,0 +1,10 @@
+-- get lawyer name, title, and number assignments for all lawyers even if they are not currently assigned to any cases
+
+select
+    lawyer.name, lawyer.title,
+    (
+        seelct count(*)
+        from lawyer_assignment
+        where lawyer_assignment.lawyer_id = lawyer.lawyer_id
+    ) as num_assignments
+from lawyer;
