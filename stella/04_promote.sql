@@ -4,7 +4,7 @@ update lawyer
 set title = 'partner'
 where
     title = 'associate'
-    -- get IDs of lawyers with 3 or more closed case assignments
+    -- subquery gets IDs of lawyers with 3 or more closed case assignments
     and lawyer_id in (
       select lawyer_assignment.lawyer_id
       -- join assignments with cases to access case status
