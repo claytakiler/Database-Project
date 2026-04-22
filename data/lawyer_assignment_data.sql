@@ -56,6 +56,11 @@ INSERT INTO
     ),
     (
         8,3
+        15,15
+    ),
+    -- for Stella's "promote" query
+    (
+        11,10
     ),
     (
         1,2
