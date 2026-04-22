@@ -1,5 +1,5 @@
 SELECT
-   lawyer.lawyer_ID, 
+   lawyer_assignment.lawyer_ID, 
    COUNT(case_ID) AS total_cases 
 FROM lawyer_assignment
 GROUP BY lawyer_ID
