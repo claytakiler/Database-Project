@@ -42,4 +42,8 @@ VALUES (1, 'Semi Wreck', 'open'),
         'on appeal'
     ),
     (14, 'Fraud', 'settled'),
-    (15, 'Brain Damaged', 'closed');
+    (15, 'Brain Damaged', 'closed'),
+    (15, 'Dramatic Divorce', 'settled'),
+    (12, 'Child protected Services Involved', 'closed'),
+    (9, 'Domestic Dispute', 'settled'),
+    (8, 'Child Support', 'closed');
