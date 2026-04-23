@@ -34,5 +34,5 @@ INNER JOIN `case` ON CasesWithAllSpec.case_ID = `case`.case_id
 INNER JOIN lawyer_assignment ON lawyer_assignment.case_ID = CasesWithAllSpec.case_ID
 INNER JOIN lawyer ON lawyer.lawyer_ID = lawyer_assignment.lawyer_ID
 INNER JOIN lawyer_specialization ON lawyer_specialization.lawyer_ID = lawyer.lawyer_ID
-ORDER BY CasesWithAllSpec.case_ID ASC
+ORDER BY CasesWithAllSpec.case_ID ASC, lawyer_specialization.specialization ASC
 ;
