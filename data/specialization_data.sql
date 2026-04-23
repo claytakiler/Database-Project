@@ -12,5 +12,7 @@ VALUES (1, 'corporate law'),
        (6, 'criminal law'),
        (7, 'property law'),
        (7, 'corporate law'),
+       (8, 'corporate law'),
+       (8, 'property law'),
        (8, 'family law'),
        (8, 'criminal law');
