@@ -1,6 +1,6 @@
 -- Find the case_id for cases that have lawyers
 -- that make up every possible  specialization
-
+-- Author: Clayton Houser
 WITH
     CasesWithAllSpec AS (
         SELECT DISTINCT
