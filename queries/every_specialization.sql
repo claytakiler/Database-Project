@@ -1,6 +1,6 @@
 -- Find the case_id for cases that have lawyers
 -- that make up every possible  specialization
--- Author: Clayton Houser
+
 WITH
     CasesWithAllSpec AS (
         SELECT DISTINCT
@@ -29,15 +29,10 @@ WITH
                     )
             )
     )
-SELECT
-    CasesWithAllSpec.case_ID,
-    lawyer.name AS lawyer_name,
-    lawyer_specialization.specialization AS lawyer_specialization,
-    `case`.title AS case_title
-FROM
-    CasesWithAllSpec
-    INNER JOIN `case` ON CasesWithAllSpec.case_ID = `case`.case_id
-    INNER JOIN lawyer_assignment ON lawyer_assignment.case_ID = CasesWithAllSpec.case_ID
-    INNER JOIN lawyer ON lawyer.lawyer_ID = lawyer_assignment.lawyer_ID
-    INNER JOIN lawyer_specialization ON lawyer_specialization.lawyer_ID = lawyer.lawyer_ID
-ORDER BY CasesWithAllSpec.case_ID ASC, lawyer_specialization.specialization ASC;
+SELECT CasesWithAllSpec.case_ID, lawyer.name AS lawyer_name, lawyer_specialization.specialization AS lawyer_specialization, `case`.title AS case_title FROM CasesWithAllSpec
+INNER JOIN `case` ON CasesWithAllSpec.case_ID = `case`.case_id
+INNER JOIN lawyer_assignment ON lawyer_assignment.case_ID = CasesWithAllSpec.case_ID
+INNER JOIN lawyer ON lawyer.lawyer_ID = lawyer_assignment.lawyer_ID
+INNER JOIN lawyer_specialization ON lawyer_specialization.lawyer_ID = lawyer.lawyer_ID
+ORDER BY CasesWithAllSpec.case_ID ASC, lawyer_specialization.specialization ASC
+;
