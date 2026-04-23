@@ -1,4 +1,5 @@
 -- Give a salary upgrade of 10% to everyone who is a partner and who has settled or closed a case more than three times.
+-- Author: Clayton Houser
 UPDATE lawyer
 SET salary = salary + (salary * 0.1)
 WHERE title = 'partner' AND EXISTS(
