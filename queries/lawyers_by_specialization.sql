@@ -1,9 +1,12 @@
 select lawyer.name,
        lawyer.title,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        format(lawyer.salary, 2) as salary,
 >>>>>>> acb2f40 (made the specialization queries more complex)
+=======
+>>>>>>> 3881acb (removed one salary from lawyers_by_specialization to where it now shows only one)
        ls.specialization,
        count(distinct la.case_ID) as num_cases_assigned,
        format(lawyer.salary / nullif(count(distinct la.case_ID), 0), 2) as salary_per_case
