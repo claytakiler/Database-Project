@@ -1,10 +1,35 @@
--- TEMPLATE QUERY - DO NOT RUN AS-IS!
--- You MUST replace the placeholders with actual numbers before running
---
--- Example usage:
--- UPDATE lawyer_assignment SET case_ID = 7 WHERE lawyer_ID = 2 AND case_ID = 3;
--- (This reassigns lawyer 2 from case 3 to case 7)
+
+WITH lawyer_case_info AS (
+   
+    SELECT 
+        lawyer_assignment.lawyer_ID,
+        lawyer_assignment.case_ID AS old_case_id,
+        lawyer.name AS lawyer_name,
+        lawyer.title AS lawyer_title,
+        lawyer.salary
+    FROM lawyer_assignment
+    INNER JOIN lawyer ON lawyer_assignment.lawyer_ID = lawyer.lawyer_ID
+    WHERE lawyer_assignment.case_ID = OLD_CASE_ID AND lawyer_assignment.lawyer_ID = LAWYER_ID
+),
+new_case_check AS (
+   
+    SELECT 
+        `case`.case_id,
+        `case`.status,
+        lawyer_assignment.lawyer_ID AS existing_lawyer
+    FROM `case`
+    LEFT OUTER JOIN lawyer_assignment ON `case`.case_id = lawyer_assignment.case_ID
+    WHERE `case`.case_id = NEW_CASE_ID
+)
 
 UPDATE lawyer_assignment
 SET case_ID = NEW_CASE_ID
-WHERE lawyer_ID = LAWYER_ID AND case_ID = OLD_CASE_ID;
+WHERE lawyer_ID = LAWYER_ID 
+  AND case_ID = OLD_CASE_ID
+  
+  AND lawyer_ID IN (
+      SELECT lawyer.lawyer_ID 
+      FROM lawyer
+      INNER JOIN lawyer_assignment ON lawyer.lawyer_ID = lawyer_assignment.lawyer_ID
+      WHERE lawyer_assignment.case_ID = OLD_CASE_ID
+  );
