@@ -5,4 +5,4 @@ create table lawyer_specialization(
     primary key(lawyer_ID, specialization),
     check(specialization in ('corporate law', 'criminal law', 'family law', 'property law')),
     foreign key (lawyer_id) references lawyer(lawyer_id) on delete cascade
-)
+);
