@@ -1,5 +1,6 @@
 select lawyer.name,
        lawyer.title,
+       format(lawyer.salary, 2) as salary,
        ls.specialization,
        count(distinct la.case_ID) as num_cases_assigned,
        format(lawyer.salary / nullif(count(distinct la.case_ID), 0), 2) as salary_per_case
