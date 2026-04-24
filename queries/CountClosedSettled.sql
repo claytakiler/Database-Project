@@ -1,5 +1,5 @@
 SELECT
-    lawyer.lawyer_ID, lawyer.name, lawyer.title AS lawyer_title, client.client_ID AS clients_id, client.name, client.type AS client_type,
+    lawyer.lawyer_ID, lawyer.name, client.client_ID AS clients_id, client.name,
     -- Secondly, add a 1 or 0 for every row of cases inside the clients group
     -- Thirdly, SUM up the 1's and 0's for each client
     SUM(
