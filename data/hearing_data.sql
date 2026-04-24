@@ -4,6 +4,7 @@ values
 -- case_ID = 00001
     (1, 'Fontenot', '2026-1-3 11:00:00.00', 'Baton Rouge City Court'),
     (1, 'Fontenot', '2026-5-30 09:00:00.00', 'Baton Rouge City Court'),
+    (1, 'Fontenot', '2026-07-15 10:00:00.00', 'Baton Rouge City Court'),
 -- case_ID = 00002
     (2, 'Johnson', '2026-1-11 14:30:00.00', 'New Orleans City Court'),
     (2, 'Johnson', '2026-4-20 09:30:00.00', 'New Orleans City Court'),
