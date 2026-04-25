@@ -94,4 +94,10 @@ VALUES (
         'john marston',
         'associate',
         112000.00
+    ),
+    (
+        16,
+        'Barbra Jannet',
+        'partner',
+        112000.00
     );
