@@ -3,7 +3,7 @@
 
 select
     title,
-    timestampdiff(day, min(hearing.timestamp), max(hearing.timestamp)) as elapsed_days
+    timestampdiff(day, min(hearing.date_time), max(hearing.date_time)) as elapsed_days
 
 from
     `case` natural join hearing
