@@ -9,4 +9,5 @@ from
     `case` natural join hearing
 
 group by case_id, title
-having count(*) >= 2;
+having count(*) >= 2
+order by elapsed_days ASC;
