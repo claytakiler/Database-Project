@@ -6,7 +6,7 @@ select
     max(hearing.timestamp) - min(hearing.timestamp) as elapsed_time
 
 from
-    'case' natural join hearing
+    `case` natural join hearing
 
 group by case_id, title
 having count(*) >= 2;
