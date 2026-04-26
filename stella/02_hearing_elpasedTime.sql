@@ -3,7 +3,7 @@
 
 select
     title,
-    max(hearing.timestamp) - min(hearing.timestamp) as elapsed_time
+    max(hearing.date_time) - min(hearing.date_time) as elapsed_time
 
 from
     `case` natural join hearing
