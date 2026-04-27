@@ -10,4 +10,4 @@ from
 
 group by case_id, title
 having count(*) >= 2
-order by elapsed_days ASC;
+order by elapsed_days asc;
